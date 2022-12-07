@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+
+*{
+	margin:0;
+	padding:0;	
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+.header{
+	width: 100%;
+	background:#cdf3e0;
+	padding: 0 1%;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;   
+	   }
+		
+.header a{	
+	padding:  10px 10px;	
+	display: inline-block;
+	margin: 10px 30px;
+	color: black;
+}	
+
+.header li{
+	padding: 10px 10px;	
+	display: inline-block;
+	margin: 10px 30px;
+}	
+
+.header input[type=text]{
+		
+		padding: 10px 15px;
+		margin-right: 10%;
+}
+
+.input_text{
+	display:flex;
+	align-items: center;
+	text-align: center;
+	margin: 3% 0;
+	justify-content: space-around;
+	border: thick;
+}
+
+body{
+	background-color: #ffffac	;
+}
+
+.input_text input[type=submit]{
+	align-items: center;
+	text-align: center;
+	justify-content: space-around;
+	padding: 15px 15px;
+	font-size: 15px;	
+
+}
+
+.input_text textarea {
+  resize: none;
+}
+
